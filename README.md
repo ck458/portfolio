@@ -79,7 +79,7 @@
 
 [![Portfolio sample checks](https://github.com/ck458/portfolio/actions/workflows/samples.yml/badge.svg)](https://github.com/ck458/portfolio/actions/workflows/samples.yml)
 
-[项目导览](docs/project-index.md) · [技术架构](docs/system-architecture.md) · [工程验证](docs/engineering-evidence.md) · [静态作品展示](docs/static-site.md)
+[项目导览](docs/project-index.md) · [技术架构](docs/system-architecture.md) · [工程验证](docs/engineering-evidence.md) · [面试与技术证据导览](docs/portfolio-readiness.md) · [静态作品展示](docs/static-site.md)
 
 **联系：** [GitHub @ck458](https://github.com/ck458)
 
