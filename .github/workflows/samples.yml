@@ -12,6 +12,9 @@ on:
       - ".github/workflows/samples.yml"
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   public-quality:
     strategy:
@@ -25,5 +28,10 @@ jobs:
           python-version: "3.12"
       - name: Install selected sample dependencies
         run: python -m pip install -r samples/evaluation/requirements.txt
-      - name: Run code and publication checks
+      - name: Run Python code and publication checks
         run: python -m unittest discover -s tests -p "test_*.py" -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Test actual TypeScript date utilities
+        run: node --experimental-strip-types --test tests/period.test.mjs

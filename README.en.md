@@ -20,30 +20,30 @@ I build controlled ML experiments and reliable AI applications. My work spans mu
 
 ## Featured work
 
-### [01 · Novel Engine | Reliable Agent Workflow](projects/novel-engine.md)
+### [01 · Novel Engine | Reliable Agent Workflow](projects/novel-engine.en.md)
 **Personal project lead · Python / Model Adapters / SQLite / CI**
 - Designed a multi-stage workflow spanning context retrieval, planning, generation, evidence extraction, review and durable commit.
 - Built checkpointed execution, integrity verification, state recovery, usage accounting and structured model interfaces.
 - Validated a 10-chapter isolated workflow and **544 automated tests** across Windows and Ubuntu.
 
-### [02 · Qwen3-VL 8B→2B | Multimodal Distillation](projects/vlm-distillation.md)
+### [02 · Qwen3-VL 8B→2B | Multimodal Distillation](projects/vlm-distillation.en.md)
 **Research & implementation · PyTorch / LoRA / Slurm / Evaluation**
 - Built teacher-output auditing, versioned datasets, controlled training, visual interventions and paired statistical reports.
 - Evaluated ScienceQA and a 1,431-sample clean external split of MMStar.
 - Achieved **95.6% ScienceQA test** and **57.79% MMStar clean** with the matched answer-only student.
 
-### [03 · REVEAL | Temporal Graph Anomaly Detection](projects/reveal.md)
+### [03 · REVEAL | Temporal Graph Anomaly Detection](projects/reveal.en.md)
 **First author · Research design and experimental implementation**
 - Developed evidence-conditioned residual scoring for continuous-time anomaly detection.
 - Designed anomaly-injection benchmarks, reproduced baselines and ran 5 independent evaluations.
 - **ICONIP 2026 Oral**; best AUPRC across four real-world datasets.
 
-### [04 · Study Logs | Full-Stack AI Productivity](projects/study-logs.md)
+### [04 · Study Logs | Full-Stack AI Productivity](projects/study-logs.en.md)
 **Independent product engineering · Next.js / React / TypeScript / API architecture**
 - Built daily planning, time tracking, personal notes, historical records and AI-context aggregation.
 - Organized **24 API route modules**, **13 page entries**, business validation and structured data export.
 
-**Additional projects:** [TGN × CERT](projects/tgn-cert.md) · [CICIDS2017](projects/cicids2017.md) ([public code](https://github.com/ck458/CICIDS2017)).
+**Additional projects:** [TGN × CERT](projects/tgn-cert.en.md) · [CICIDS2017](projects/cicids2017.en.md) ([public code](https://github.com/ck458/CICIDS2017)).
 
 ## Technical stack
 
