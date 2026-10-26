@@ -55,6 +55,6 @@ Python · PyTorch · LoRA/SFT · Slurm · Research Evaluation · SQLite · Agent
 
 [![Portfolio sample checks](https://github.com/ck458/portfolio/actions/workflows/samples.yml/badge.svg)](https://github.com/ck458/portfolio/actions/workflows/samples.yml)
 
-[Role-oriented guide](docs/project-index.md) · [Architecture](docs/system-architecture.md) · [Research & engineering evidence](docs/engineering-evidence.md)
+[Role-oriented guide](docs/project-index.md) · [Architecture](docs/system-architecture.md) · [Evidence](docs/engineering-evidence.md) · [Interview-ready technical overview](docs/portfolio-readiness.md)
 
 **Contact:** [GitHub @ck458](https://github.com/ck458) · © 2026 ck458
