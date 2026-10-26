@@ -53,8 +53,8 @@ export function getDayRange(dateString = appDateString()): PeriodRange {
 }
 
 export function getWeekRange(dateString = appDateString()): PeriodRange {
-  const date = new Date(`${dateString}T00:00:00+08:00`);
-  const day = date.getDay();
+  const { year, month, day: calendarDay } = parseDateParts(dateString);
+  const day = new Date(Date.UTC(year, month - 1, calendarDay)).getUTCDay();
   const mondayOffset = day === 0 ? -6 : 1 - day;
   const start = addDays(dateString, mondayOffset);
   const end = addDays(start, 6);
