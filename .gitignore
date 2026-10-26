@@ -1,0 +1,36 @@
+# Runtime files and dependencies
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+dist/
+build/
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*.pem
+*.key
+*.p12
+
+# Models, training data, personal state
+*.db
+*.sqlite
+*.jsonl
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.zip
+runtime/
+outputs/
+checkpoints/
+data/raw/
